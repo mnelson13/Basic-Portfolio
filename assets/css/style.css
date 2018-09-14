@@ -21,6 +21,7 @@ body {
     margin-left: auto; 
     margin-right: auto; 
     width: 960px;
+    padding: 20px;
 
 }
 
@@ -59,6 +60,7 @@ h1 {
     height: 80px;
     margin: 0;
     padding-top: 20px;
+    padding-bottom: 15px;
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -95,3 +97,102 @@ h1, h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+#aboutMeTitle,
+#portfolioTitle,
+#contactTitle {
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: #dddddd;
+}
+
+#bio {
+    padding-top: 20px;
+}
+
+#Melissa {
+    height: 200px;
+    width: 173px;
+    margin-right: 20px;
+    float: left;
+}
+
+#bio p {
+    margin: 0;
+}
+
+.imageDiv {
+    position: relative;
+}
+#image1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+#image2 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 362px;
+    text-align: center;
+    padding: 10px;
+}
+
+#image3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 545px;
+    left: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+#image4 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 252px;
+    height: 20px;
+    position: absolute;
+    top: 545px;
+    left: 362px;
+    text-align: center;
+    padding: 10px;
+}
+
+.placeholderImg {
+    margin: 30px;
+    float: left;
+}
+
+form {
+    padding: 20px;
+    color: #989696;
+}
+
+.formBox,
+.messageBox {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.messageBox {
+    height: 200px;
+}
+
+.submitBox {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 10px;
+}
