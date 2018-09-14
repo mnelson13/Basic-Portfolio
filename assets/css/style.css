@@ -7,6 +7,7 @@ body {
     position: relative;
 }
 
+
 #aboutMe,
 #portfolio,
 #contact {
@@ -63,8 +64,10 @@ h1 {
     padding-bottom: 15px;
     text-align: center;
     position: absolute;
-    bottom: 0;
-    left: 355px;
+    bottom: 0; 
+    /* left: 355px; */
+    left: 20%;
+
 }
 
 nav {
@@ -74,7 +77,8 @@ nav {
     margin: 0;
     padding: 10px;
     bottom: 0;
-    right: 355px;
+    /* right: 355px; */
+    left: 60%;
 }
 
 nav a {
